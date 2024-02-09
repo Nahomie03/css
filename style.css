@@ -1,0 +1,95 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,300&display=swap');
+
+
+.{
+    padding: 0Px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ :root{
+    --frist-color:orange;
+ }
+
+
+body{
+    font-family: 'montserrat',sans-serif;
+    padding: 1rem 200px 0px 200px;
+    background-image: url(ecran.jpg) ;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+    
+
+
+
+.header-title{
+    color: orange;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+.nav--link{
+    margin-right: 1.5rem;
+    text-align: right;
+}
+.brand{
+    display: flex;
+    margin-top: 1rem;
+    border: 1px solid orange;
+}
+.brand-left{
+    border: 1px solid orange;
+    width: 60%;
+}
+.brand-right{
+    
+    width: 40%;
+}
+.img-container{
+    display: right;
+    width: 320PX;
+    height: 320px;
+    text-align: right;
+    margin: auto;
+    
+    
+
+}
+.img-container img{
+    width: 320px;
+    height: 320px ;
+    border-radius: 50%;
+    object-fit: right;
+    border: 0.8rem solid white;
+    text-align: right;
+    margin: auto;
+   
+
+}
+.img{
+    text-align: right;
+    margin: auto;
+    }
+.socio-media{
+        position: absolute;
+        bottom: 40px;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+}
